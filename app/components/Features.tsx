@@ -9,6 +9,7 @@ import { MdWallet } from "react-icons/md";
 import { AiFillSecurityScan } from "react-icons/ai";
 
 
+
 const sora = Sora({
   subsets: ["latin"],
   display: "swap",
@@ -70,6 +71,7 @@ const Features = () => {
                 fill
                 className="object-contain"
                 priority
+                unoptimized={true}
               />
             </div>
           </div>

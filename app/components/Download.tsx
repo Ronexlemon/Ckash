@@ -29,6 +29,11 @@ const Download = () => {
 
             {/* App Store Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
+            <a
+  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+  target="_blank"
+  rel="noopener noreferrer"
+>
               <button className="flex  justify-center justify-cente items-center gap-3 bg-[#0066FF] text-white px-6 py-3 rounded-md hover:bg-[#0052CC] transition-colors">
                 <FaGooglePlay className="w-6 h-6" />
                 <div className="text-left">
@@ -36,6 +41,7 @@ const Download = () => {
                   <div className="text-sm font-semibold">Google Play</div>
                 </div>
               </button>
+              </a>
 
               <button className="flex  justify-center justify-cente items-center gap-3 bg-[#0066FF] text-white px-6 py-3 rounded-md hover:bg-[#0052CC] transition-colors">
                 <FaApple className="w-6 h-6" />

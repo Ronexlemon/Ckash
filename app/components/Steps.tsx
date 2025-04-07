@@ -61,9 +61,15 @@ const Steps = () => {
                 Download, set up today and start sending and receiving payments
                 instantly —secure, fast, and hassle-free!
               </p>
+              <a
+  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+  target="_blank"
+  rel="noopener noreferrer"
+>
               <button className="bg-[#0066FF] mb-10 md:mb-0 text-white px-8 py-3 rounded-md text-base font-medium hover:bg-[#0052CC] transition-colors">
                 Download App
               </button>
+              </a>
             </div>
           </div>
           {/* Steps Grid - Left Side */}

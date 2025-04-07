@@ -45,10 +45,17 @@ const NavBar = () => {
 
           {/* Download App Button */}
           <div className="hidden sm:flex items-center">
+          <a
+  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+  target="_blank"
+  rel="noopener noreferrer"
+>
             <button className="bg-[#0066FF] text-white px-6 py-4 rounded-sm text-base font-medium hover:bg-[#0052CC] transition-colors flex items-center gap-2">
               Download App
             </button>
+            </a>
           </div>
+         
 
           {/* Mobile menu button */}
           <div className="sm:hidden flex items-center">

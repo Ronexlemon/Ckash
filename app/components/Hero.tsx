@@ -40,9 +40,15 @@ const Hero = () => {
               experience.
             </p>
             <div className="flex flex-wrap gap-4">
+            <a
+  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+  target="_blank"
+  rel="noopener noreferrer"
+>
               <button className="bg-[#0066FF] text-white px-6 py-4 rounded-sm text-base font-medium hover:bg-[#0052CC] transition-colors flex items-center gap-2">
                 Download App
               </button>
+              </a>
               <button
                 onClick={() => setIsWaitlistOpen(true)}
                 className="border-2 border-[#0066FF] text-[#0066FF] px-6 py-3 rounded-sm text-base font-medium hover:bg-[#0066FF] hover:text-white transition-colors"
