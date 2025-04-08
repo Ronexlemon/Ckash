@@ -120,23 +120,29 @@ const Footer = () => {
           {/* Policy Links */}
           <div className="flex flex-wrap justify-center sm:justify-start gap-4 sm:gap-6 text-sm">
             <Link
-              href="#"
+              href="/terms"
               className="text-white/70 hover:text-white transition-colors"
             >
               Terms of use
             </Link>
             <Link
-              href="#"
+              href="/privacy"
               className="text-white/70 hover:text-white transition-colors"
             >
               Privacy policy
             </Link>
             <Link
+              href="/account"
+              className="text-white/70 hover:text-white transition-colors"
+            >
+              Account deactivation
+            </Link>
+            {/* <Link
               href="#"
               className="text-white/70 hover:text-white transition-colors"
             >
               Cookies policy
-            </Link>
+            </Link> */}
           </div>
 
           {/* Social Icons */}
