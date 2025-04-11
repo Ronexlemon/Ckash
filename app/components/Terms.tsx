@@ -20,7 +20,7 @@ const Terms =()=>{
                     <p>
                     Welcome to <span className="text-xl font-black text-[#0066FF]">
                 c<span className="text-black">K</span>ash
-              </span>, a digital self-custodial payment wallet powered by the Celo blockchain. These Terms and Conditions ("Terms") constitute a legally binding agreement between you ("User", "you") and Ckash Technologies ("Ckash", "we", "us", or "our"). By accessing or using the Ckash mobile application or services, you agree to be bound by these Terms. If you do not agree, please discontinue your use of the app immediately.
+              </span>, a digital self-custodial payment wallet powered by the Celo blockchain. These Terms and Conditions (&quot;Terms&quot;) constitute a legally binding agreement between you (&quot;User&quot;, &quot;you&quot;) and Ckash Technologies (&quot;Ckash&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). By accessing or using the Ckash mobile application or services, you agree to be bound by these Terms. If you do not agree, please discontinue your use of the app immediately.
 
                     </p>
                     <div className="text-black flex flex-col gap-2">
@@ -60,7 +60,7 @@ const Terms =()=>{
                     <div className="text-black flex flex-col gap-2">
                         <h2 className="text-[#0066FF]">5. Transactions and Fees
                         </h2>
-                        <p>All transactions conducted using the Ckash app are initiated by the user and executed on the Celo blockchain. Transactions may incur fees, including blockchain network fees ("gas") and, where applicable, service charges from third-party providers integrated into the app. These fees are disclosed during the transaction process and are non-refundable once the transaction is broadcast to the network.
+                        <p>All transactions conducted using the Ckash app are initiated by the user and executed on the Celo blockchain. Transactions may incur fees, including blockchain network fees (&quot;gas&quot;) and, where applicable, service charges from third-party providers integrated into the app. These fees are disclosed during the transaction process and are non-refundable once the transaction is broadcast to the network.
 
                         </p>
                         <p>
@@ -88,7 +88,7 @@ const Terms =()=>{
 
                         </p>
                         <p>
-                        Ckash does not warrant that the app will be error-free, uninterrupted, or free from viruses or other harmful components. The app is provided "as is" and "as available" without warranties of any kind, express or implied.
+                        Ckash does not warrant that the app will be error-free, uninterrupted, or free from viruses or other harmful components. The app is provided &quot;as is&quot; and &quot;as available&quot; without warranties of any kind, express or implied.
 
                         </p>
                     </div>
@@ -111,7 +111,8 @@ const Terms =()=>{
                     <div className="text-black flex flex-col gap-2">
                         <h2 className="text-[#0066FF]">10. Governing Law
                         </h2>
-                        <p>These Terms shall be governed by and interpreted in accordance with the laws of PLEASE ADD COUNTRY, without regard to its conflict of laws principles. Any disputes arising from or relating to these Terms shall be resolved in the courts of [Insert Jurisdiction], unless otherwise required by applicable law.
+                        <p>These Terms shall be governed by and interpreted in accordance with the laws of the United States, without regard to its conflict of laws principles. Any disputes arising from or relating to these Terms shall be resolved in the courts of California, unless otherwise required by applicable law.
+
 
                         </p>
                         
