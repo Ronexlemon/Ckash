@@ -5,6 +5,7 @@ import { RiFundsBoxFill } from "react-icons/ri";
 import { IoWalletSharp } from "react-icons/io5";
 import { MdExplore } from "react-icons/md";
 import { LuBadgeCheck } from "react-icons/lu";
+import { FaGooglePlay } from "react-icons/fa";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -66,9 +67,15 @@ const Steps = () => {
   target="_blank"
   rel="noopener noreferrer"
 >
-              <button className="bg-[#0066FF] mb-10 md:mb-0 text-white px-8 py-3 rounded-md text-base font-medium hover:bg-[#0052CC] transition-colors">
-                Download App
-              </button>
+              <button className="flex  justify-center items-center gap-2 sm:gap-3 bg-[#0066FF] text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-md hover:bg-[#0052CC] transition-colors">
+                                            <FaGooglePlay className="w-5 h-5 sm:w-6 sm:h-6" />
+                                            <div className="text-left">
+                                              <div className="text-[10px] sm:text-xs">Download on</div>
+                                              <div className="text-xs sm:text-sm font-semibold">
+                                                Google Play
+                                              </div>
+                                            </div>
+                                          </button>
               </a>
             </div>
           </div>

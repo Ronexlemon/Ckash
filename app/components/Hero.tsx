@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Sora } from "next/font/google";
 import { useState } from "react";
 import WaitlistModal from "./WaitlistModal";
+import { FaGooglePlay } from "react-icons/fa";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -14,7 +15,7 @@ const Hero = () => {
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
 
   return (
-    <div
+    <div  id="hero"
       className={`relative min-h-screen -mb-40 overflow-hidden ${sora.className}`}
     >
       {/* Background Image Layer */}
@@ -45,26 +46,33 @@ const Hero = () => {
   target="_blank"
   rel="noopener noreferrer"
 >
-              <button className="bg-[#0066FF] text-white px-6 py-4 rounded-sm text-base font-medium hover:bg-[#0052CC] transition-colors flex items-center gap-2">
-                Download App
-              </button>
+              <button className="flex  justify-center items-center gap-2 sm:gap-3 bg-[#0066FF] text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-md hover:bg-[#0052CC] transition-colors">
+                              <FaGooglePlay className="w-5 h-5 sm:w-6 sm:h-6" />
+                              <div className="text-left">
+                                <div className="text-[10px] sm:text-xs">Download on</div>
+                                <div className="text-xs sm:text-sm font-semibold">
+                                  Google Play
+                                </div>
+                              </div>
+                            </button>
               </a>
-              <button
+              {/* <button
                 onClick={() => setIsWaitlistOpen(true)}
                 className="border-2 border-[#0066FF] text-[#0066FF] px-6 py-3 rounded-sm text-base font-medium hover:bg-[#0066FF] hover:text-white transition-colors"
               >
                 Join Waitlist
-              </button>
+              </button> */}
             </div>
             {/* Stats */}
             <div className="mt-12 flex items-center gap-8">
               <div>
-                <p className="text-xs text-gray-600">App Download</p>
-                <p className="text-xl font-bold text-gray-900">106K+</p>
+                <p className="text-xs text-gray-600">Powered by:</p>
+                <p className="text-xl font-bold text-gray-900">DIVVI</p>
+                
               </div>
               <div className="w-px h-12 bg-gray-600"></div>
               <div>
-                <p className="text-xs text-gray-600">Audited by:</p>
+                <p className="text-xs text-gray-600">Built on:</p>
                 <p className="text-xl font-bold text-gray-900">CELO</p>
               </div>
             </div>

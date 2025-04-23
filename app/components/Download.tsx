@@ -2,7 +2,7 @@
 
 import { Sora } from "next/font/google";
 import Image from "next/image";
-import { FaGooglePlay, FaApple } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -43,13 +43,13 @@ const Download = () => {
               </button>
               </a>
 
-              <button className="flex  justify-center justify-cente items-center gap-3 bg-[#0066FF] text-white px-6 py-3 rounded-md hover:bg-[#0052CC] transition-colors">
+              {/* <button className="flex  justify-center justify-cente items-center gap-3 bg-[#0066FF] text-white px-6 py-3 rounded-md hover:bg-[#0052CC] transition-colors">
                 <FaApple className="w-6 h-6" />
                 <div className="text-left">
                   <div className="text-xs">Download on</div>
                   <div className="text-sm font-semibold">App Store</div>
                 </div>
-              </button>
+              </button> */}
             </div>
           </div>
 

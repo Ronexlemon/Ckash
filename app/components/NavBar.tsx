@@ -23,8 +23,9 @@ const NavBar = () => {
           <div className="hidden sm:flex flex-1 justify-center">
             <div className="flex items-center space-x-8">
               <Link
-                href="/"
+                href="https://t.me/ckashapp"
                 className="text-[#0066FF] hover:text-[#0052CC] px-3 py-2 text-sm font-medium"
+                target="_blank"
               >
                 Support
               </Link>
@@ -35,8 +36,9 @@ const NavBar = () => {
                 Blog
               </Link>
               <Link
-                href="/"
+               href="https://t.me/ckashapp"
                 className="text-gray-600 hover:text-[#0052CC] px-3 py-2 text-sm font-medium"
+                target="_blank"
               >
                 Community
               </Link>
