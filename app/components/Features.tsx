@@ -50,7 +50,7 @@ const featuresList = [
 
 const Features = () => {
   return (
-    <section className={`py-20 bg-white ${sora.className}`}>
+    <section id="features" className={`py-20 bg-white ${sora.className}`}>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-4xl  font-bold text-[#0066FF] leading-tight mb-6">
