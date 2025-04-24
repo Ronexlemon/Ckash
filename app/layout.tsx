@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "cKash",
-  description: "cKash App",
+  description: "cKash App",  
 };
 
 export default function RootLayout({
@@ -24,6 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        
+        
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
