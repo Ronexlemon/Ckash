@@ -30,8 +30,9 @@ const NavBar = () => {
                 Support
               </Link>
               <Link
-                href="/"
+                href="https://medium.com/@ckashApp"
                 className="text-gray-600 hover:text-[#0052CC] px-3 py-2 text-sm font-medium"
+                target="_blank"
               >
                 Blog
               </Link>
@@ -103,8 +104,9 @@ const NavBar = () => {
               Support
             </Link>
             <Link
-              href="/"
+              href="https://medium.com/@ckashApp"
               className="block px-3 py-2 text-base font-medium text-center text-[#0066FF] hover:text-[#0052CC] hover:bg-gray-50"
+              target="_blank"
             >
               Blog
             </Link>
@@ -127,3 +129,6 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
+
