@@ -2,9 +2,15 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (path: string) => {
+    return pathname === path;
+  };
 
   return (
     <nav className="bg-white shadow-md fixed w-full z-50">
@@ -24,21 +30,32 @@ const NavBar = () => {
             <div className="flex items-center space-x-8">
               <Link
                 href="https://t.me/ckashapp"
-                className="text-[#0066FF] hover:text-[#0052CC] px-3 py-2 text-sm font-medium"
+                className={`${
+                  isActive("/support")
+                    ? "text-[#0066FF] font-medium"
+                    : "text-gray-600"
+                } hover:text-[#0052CC] px-3 py-2 text-sm font-medium`}
                 target="_blank"
               >
                 Support
               </Link>
               <Link
-                href="https://medium.com/@ckashApp"
-                className="text-gray-600 hover:text-[#0052CC] px-3 py-2 text-sm font-medium"
-                target="_blank"
+                href="/blog"
+                className={`${
+                  isActive("/blog")
+                    ? "text-[#0066FF] font-medium"
+                    : "text-gray-600"
+                } hover:text-[#0052CC] px-3 py-2 text-sm font-medium`}
               >
                 Blog
               </Link>
               <Link
-               href="https://t.me/ckashapp"
-                className="text-gray-600 hover:text-[#0052CC] px-3 py-2 text-sm font-medium"
+                href="https://t.me/ckashapp"
+                className={`${
+                  isActive("/community")
+                    ? "text-[#0066FF] font-medium"
+                    : "text-gray-600"
+                } hover:text-[#0052CC] px-3 py-2 text-sm font-medium`}
                 target="_blank"
               >
                 Community
@@ -48,17 +65,16 @@ const NavBar = () => {
 
           {/* Download App Button */}
           <div className="hidden sm:flex items-center">
-          <a
-  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
-  target="_blank"
-  rel="noopener noreferrer"
->
-            <button className="bg-[#0066FF] text-white px-6 py-4 rounded-sm text-base font-medium hover:bg-[#0052CC] transition-colors flex items-center gap-2">
-              Download App
-            </button>
+            <a
+              href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-[#0066FF] text-white px-6 py-4 rounded-sm text-base font-medium hover:bg-[#0052CC] transition-colors flex items-center gap-2">
+                Download App
+              </button>
             </a>
           </div>
-         
 
           {/* Mobile menu button */}
           <div className="sm:hidden flex items-center">
@@ -98,28 +114,48 @@ const NavBar = () => {
         <div className="sm:hidden bg-white border-t border-gray-200">
           <div className="pt-2 pb-3 space-y-1">
             <Link
-              href="/"
-              className="block px-3 py-2 text-base font-medium text-center text-[#0066FF] hover:text-[#0052CC] hover:bg-gray-50"
+              href="https://t.me/ckashapp"
+              className={`block px-3 py-2 text-base font-medium text-center ${
+                isActive("/support")
+                  ? "text-[#0066FF] font-semibold"
+                  : "text-gray-600"
+              } hover:text-[#0052CC] hover:bg-gray-50`}
+              target="_blank"
             >
               Support
             </Link>
             <Link
-              href="https://medium.com/@ckashApp"
-              className="block px-3 py-2 text-base font-medium text-center text-[#0066FF] hover:text-[#0052CC] hover:bg-gray-50"
-              target="_blank"
+              href="/blog"
+              className={`block px-3 py-2 text-base font-medium text-center ${
+                isActive("/blog")
+                  ? "text-[#0066FF] font-semibold"
+                  : "text-gray-600"
+              } hover:text-[#0052CC] hover:bg-gray-50`}
             >
               Blog
             </Link>
             <Link
-              href="/"
-              className="block px-3 py-2 text-base font-medium text-center text-[#0066FF] hover:text-[#0052CC] hover:bg-gray-50"
+              href="https://t.me/ckashapp"
+              className={`block px-3 py-2 text-base font-medium text-center ${
+                isActive("/community")
+                  ? "text-[#0066FF] font-semibold"
+                  : "text-gray-600"
+              } hover:text-[#0052CC] hover:bg-gray-50`}
+              target="_blank"
             >
               Community
             </Link>
             <div className="px-3 py-2">
-              <button className="w-full bg-[#0066FF] text-white px-4 py-3 rounded-md text-sm font-medium hover:bg-[#0052CC] transition-colors flex items-center justify-center gap-2">
-                Download App
-              </button>
+              <a
+                href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <button className="w-full bg-[#0066FF] text-white px-4 py-3 rounded-md text-sm font-medium hover:bg-[#0052CC] transition-colors flex items-center justify-center gap-2">
+                  Download App
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -129,6 +165,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
-
