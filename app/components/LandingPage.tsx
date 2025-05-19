@@ -2,7 +2,6 @@
 
 import Features from "./Features";
 import Hero from "./Hero";
-import NavBar from "./NavBar";
 import Steps from "./Steps";
 import FAQ from "./FAQ";
 import Download from "./Download";
@@ -13,7 +12,6 @@ import Partners from "./Partners";
 const LandingPage = () => {
   return (
     <div className="min-h-screen">
-      <NavBar />
       <Hero />
       <Features />
       <Steps />
