@@ -49,7 +49,7 @@ const stepsList = [
 
 const Steps = () => {
   return (
-    <section className={`pt-4 pb-20 sm:py-20 bg-[#FFFF] ${sora.className}`}>
+    <section className={`pt-4 pb-10 md:pb-20 sm:py-20 bg-[#FFFF] ${sora.className}`}>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:gap-12">
           {/* Header - Right Side */}
@@ -67,7 +67,7 @@ const Steps = () => {
   target="_blank"
   rel="noopener noreferrer"
 >
-              <button className="flex  justify-center items-center gap-2 sm:gap-3 bg-[#0066FF] text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-md hover:bg-[#0052CC] transition-colors">
+              <button className="flex  mb-6 md:mb-0 justify-center items-center gap-2 sm:gap-3 bg-[#0066FF] text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-md hover:bg-[#0052CC] transition-colors">
                                             <FaGooglePlay className="w-5 h-5 sm:w-6 sm:h-6" />
                                             <div className="text-left">
                                               <div className="text-[10px] sm:text-xs">Download on</div>
