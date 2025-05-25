@@ -22,8 +22,11 @@ export const metadata: Metadata = {
   description:
     "cKash is a mobile-first, non-custodial crypto wallet designed for everyday use across Africa.  Send, receive, and store digital assets seamlessly across Africa.",
   keywords: [
-    "cKash",
+    "ckash",
+    "ckash wallet ",
+    "ckash app",
     "cKash App",
+    "cKash crypto wallet",
     "cKash digital wallet",
     "cKash Celo blockchain",
     "cKash Africa",
