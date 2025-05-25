@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   keywords: [
     "cKash",
     "cKash App",
-    "digital wallet",
+    "cKash digital wallet",
     "cKash Celo blockchain",
     "cKash Africa",
     "cKash mobile payments",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://ckash.app",
     siteName: "cKash",
-    title: "cKash - Africa's Mobile-First Stablecoin Wallet",
+    title: "cKash",
     description:
       "cKash is a mobile-first, non-custodial crypto wallet designed for everyday use across Africa.",
     images: [
@@ -51,18 +51,18 @@ export const metadata: Metadata = {
         url: "/ckash prev.png",
         width: 1200,
         height: 630,
-        alt: "cKash - Africa's Mobile-First Stablecoin Wallet",
+        alt: "cKash",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "cKash - Africa's Mobile-First Stablecoin Wallet",
+    title: "cKash",
     description:
       "cKash is a mobile-first, non-custodial crypto wallet designed for everyday use across Africa.",
     images: ["/ckash prev.png"],
     creator: "@ckashApp",
-  }
+  },
 };
 
 export default function RootLayout({

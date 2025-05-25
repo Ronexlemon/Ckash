@@ -5,7 +5,7 @@ export default function robot(): MetadataRoute.Robots {
     rules: {
       // all the user agents from all Search engines
       userAgent: "*",
-      allow: ["/"],
+      allow: ["/", "/blog"],
       disallow: [],
     },
     sitemap: "https://ckash.app/sitemap.xml",
