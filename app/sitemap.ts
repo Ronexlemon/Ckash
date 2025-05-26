@@ -4,15 +4,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: "https://ckash.app",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 1,
+      lastModified: new Date()
     },
     {
       url: "https://ckash.app/blog",
       lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
+    }
+    
   ];
 }
