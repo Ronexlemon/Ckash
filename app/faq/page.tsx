@@ -6,15 +6,16 @@ export const metadata: Metadata = {
   description:
     "Find answers to common questions about cKash - Africa's mobile-first stablecoin wallet. Learn about our features, security, and how to get started.",
   openGraph: {
-    title: "FAQ - cKash",
+    title: "cKash",
     description:
       "Find answers to common questions about cKash - Africa's mobile-first stablecoin wallet. Learn about our features, security, and how to get started.",
-    url: "https://ckash.app/faq",
+    url: "https://ckash.app",
   },
   twitter: {
-    title: "FAQ - cKash",
+    title: "cKash",
     description:
       "Find answers to common questions about cKash - Africa's mobile-first stablecoin wallet. Learn about our features, security, and how to get started.",
+    images: ["/ckash prev.png"],
   },
 };
 

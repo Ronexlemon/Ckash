@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ckash.app/"),
+  metadataBase: new URL("https://ckash.app"),
   title: {
     default: "cKash",
     template: "%s | cKash",
@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   description:
     "cKash is a mobile-first, non-custodial crypto wallet designed for everyday use across Africa.  Send, receive, and store digital assets seamlessly across Africa.",
   keywords: [
+    "ckash.app",
     "ckash",
     "ckash wallet ",
     "ckash app",
