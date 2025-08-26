@@ -30,7 +30,7 @@ const Download = () => {
             {/* App Store Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
             <a
-  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+  href="https://play.google.com/store/apps/details?id=com.ckash.app"
   target="_blank"
   rel="noopener noreferrer"
 >

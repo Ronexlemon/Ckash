@@ -63,7 +63,7 @@ const Steps = () => {
                 instantly —secure, fast, and hassle-free!
               </p>
               <a
-  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+  href="https://play.google.com/store/apps/details?id=com.ckash.app"
   target="_blank"
   rel="noopener noreferrer"
 >

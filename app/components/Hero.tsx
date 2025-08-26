@@ -42,7 +42,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap gap-4">
             <a
-  href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+  href="https://play.google.com/store/apps/details?id=com.ckash.app"
   target="_blank"
   rel="noopener noreferrer"
 >
