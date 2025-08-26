@@ -66,7 +66,7 @@ const NavBar = () => {
           {/* Download App Button */}
           <div className="hidden sm:flex items-center">
             <a
-              href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+              href="https://play.google.com/store/apps/details?id=com.ckash.app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -147,7 +147,7 @@ const NavBar = () => {
             </Link>
             <div className="px-3 py-2">
               <a
-                href="https://play.google.com/store/apps/details?id=xyz.mobilestack.mento"
+                href="https://play.google.com/store/apps/details?id=com.ckash.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
